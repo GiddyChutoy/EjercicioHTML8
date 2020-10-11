@@ -6,6 +6,38 @@
     <title>Ejercicio 8</title>
 </head>
 <body>
-    <form action="https://webhook.site/d9664e05-7b6f-4e53-ba4e-1fedb4f083c1" method="POST"></form>
+    <form action="https://webhook.site/c42e2463-edd0-4731-8dd0-79f28ce79d24" method="POST" target="_blank">
+        <fieldset>
+            <legend>Formulario</legend>
+            <label for="nombre">Nombre: </label> <input type="text" id="nombre" name="nombre"><br><br>
+            <label for="email">Email: </label> <input type="email" name="email" id="email"><br><br>
+            <label for="descripcion">Descripción: </label><br><textarea name="descripcion" id="descripcion" cols="30" rows="10" placeholder="Me gustan los espaguetis"></textarea><br><br>
+            <label for="nacimiento">Fecha de nacimieto</label><input type="date" name="nacimiento" id="nacimiento"><br><br>
+            <label for="colorPreferido">Color preferido: </label> <input type="color" name="colorPreferido" id="colorPreferido"><br><br>
+            <label for="english">Nivel de inglés: </label><br>       
+            <input type="range" list="english" name="english">
+
+            <datalist id="english">
+                <option value="0">
+                <option value="10">
+                <option value="20">
+                <option value="30">
+                <option value="40">
+                <option value="50">
+                <option value="60">
+                <option value="70">
+                <option value="80">
+                <option value="90">
+                <option value="100">
+            </datalist>
+
+            <br><br>
+
+            <label for="datos">Inserte aquí su curriculum: </label><br>
+            <input type="file" name="datos">
+            <br><br>
+            <input type="submit" value="Enviar">
+        </fieldset>
+    </form>
 </body>
 </html>
